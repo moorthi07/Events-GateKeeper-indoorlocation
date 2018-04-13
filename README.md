@@ -1,5 +1,6 @@
 # Events-GateKeeper-indoorlocation
-Indoor location, crowd tracking and analytics. Cisco Meraki , apaibot, angualr 5, angular material, nodejs, java, aws, mongodb 
+Indoor location, event sessions, speakers and crowd tracking analytics. Technologies used: Cisco Meraki , apaibot, angualr 5, angular material, nodejs, java, aws, mongodb 
+
 
 ![Alt text](/Screenshots/cisco-gatekeeper1.PNG?raw=true "GateKeeper indoor location event list")
 

@@ -7,5 +7,4 @@ Indoor location, event sessions, speakers and crowd tracking analytics. Technolo
 ![Alt text](/Screenshots/cisco-gatekeeper-list.PNG?raw=true "GateKeeper indoor location event list")
 
 ![Alt text](/Screenshots/cisco-gatekeeper-heatmap.PNG?raw=true "GateKeeper indoor location event crowd heatmap")
-
-![Alt text](/Screenshots/cisco-gatekeeper-tags.PNG?raw=true "GateKeeper indoor location event tags keywords")
+ 

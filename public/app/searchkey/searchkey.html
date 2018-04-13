@@ -1,0 +1,76 @@
+<div class="  fullscroll">
+  <mat-sidenav-container>
+    <mat-sidenav align="start" #searchkeysidenav>
+      <mat-toolbar>
+        <span class="flex80">
+          <h1 class="mat-toolbar-tools">
+            Searchkey
+          </h1>
+        </span>
+        <span>
+          <button mat-icon-button (click)="searchkeysidenav.toggle()">
+            <mat-icon class="icon" class="mat-secondary">close</mat-icon>
+          </button>
+        </span> 
+      </mat-toolbar>
+      <!--<form>-->
+      <mat-form-field>
+
+        <!--<input type="text" [(ngModel)]="searchSearchkey" [(ngModel)]-options="{ debounce: 500 }">-->
+        <input matInput placeholder="Search" [(ngModel)]="searchSearchkeys">
+      </mat-form-field>
+      <!--</form>-->
+      <mat-list>
+        <!--<p layout-padding ng-hide="searchkeys.length" aria-label="No searchkeys">
+            No searchkeys.
+        </p>-->
+        <!--| filter: searchSearchkey-->
+        <mat-list-item *ngFor="let searchkeyItem of searchkeys  " class="list  ">
+          <a mat-button (click)="edit(searchkeyItem)" class="a-listitem">
+            {{
+            searchkeyItem.
+              searchkey.substring(0, 15)}}
+          </a>
+
+          <button mat-icon-button class="icon mat-secondary" (click)="delete($event, searchkeyItem)">
+            <mat-icon>delete</mat-icon>
+          </button>
+          <i class="icon">edit</i>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item (click)="searchkeysidenav.toggle()" mat-warn>
+          Close
+        </mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+
+    <button mat-mini-fab (click)="searchkeysidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <B>
+      Searchkey
+    </B>
+    <!-- <button mat-button [hidden]="showComments" (click)="showComments()"><mat-icon>home</mat-icon>Show Comments</button>
+    <button mat-button [hidden]="showComments" (click)="hideComments()"><mat-icon>home</mat-icon>Hide Comments</button> -->
+    <button mat-button (click)="save()" [disabled]="!searchkeyform.valid" type="submit">
+      <i class="material-icons">done</i>Submit</button>
+    <button mat-button type="button" (click)="reset()">
+      <i class="material-icons">do_not_disturb</i>Cancel</button>
+
+
+    <mat-card>
+      <mat-card-content>
+        <form class="searchkey-form" #searchkeyform="ngForm">
+
+                                            <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="searchkey" name="searchkey" [(ngModel)]="newSearchkey.searchkey" id="searchkey" (change)="onChange()">
+                      </mat-form-field>
+                                                                        <br/>
+
+        </form>
+      </mat-card-content>
+    </mat-card>
+    <mat-divider></mat-divider>
+
+  </mat-sidenav-container>
+</div>

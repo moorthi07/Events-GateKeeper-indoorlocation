@@ -1,0 +1,63 @@
+<div [class.dark-theme]="isDarkTheme">
+  <mat-toolbar color="primary">
+    <span class="flex80">
+      <button mat-icon-button  routerLink="/" routerLinkActive="active" (click)="sidenav.toggle()">
+      <mat-icon class="icon-20">home</mat-icon>
+    </button> 
+     <span>  GateKeeper</span>
+    </span>
+    <span class="floatr"> 
+    <!--menu-->
+<!-- <button  mat-button [matMenuTriggerFor]="menuc"><mat-icon class="icon-20">queue</mat-icon>Menu</button> -->
+
+<!-- context menu       -->
+<!-- <mat-menu #menuc="mdMenu"  [overlapTrigger]="false" xPosition ="after" yPosition="below"  >
+  <button mat-menu-item [matMenuTriggerFor]="cmenu1" >Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu> -->
+
+<!-- <mat-menu #cmenu1="mdMenu"  [overlapTrigger]="false" xPosition ="after" yPosition="above" >
+  <button mat-menu-item  >{{citem2}}</button>
+  <button mat-menu-item>  <mat-icon> {{citem1}} </mat-icon>
+    <span> Check voicemail </span></button>
+    </mat-menu> -->
+    <!--/menu-->
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    </span>      
+  </mat-toolbar> 
+
+  <mat-sidenav-container>
+    <mat-sidenav align="end" #sidenav>
+      <mat-tab-group>
+        <mat-tab label="Menu">
+          <div class="menuinsidenav">
+   <li> <a (click)="togglenav()" routerLink="/gatekeeper" routerLinkActive="active">GateKeeper </a></li>
+  <hr/> 
+    <li> <a (click)="togglenav()" routerLink="/settings" routerLinkActive="active">Settings </a></li>
+  <hr/> 
+    <!-- <li> <a (click)="togglenav()" routerLink="/searchlist" routerLinkActive="active">Searchlist </a></li>
+  <hr/> 
+    <li> <a (click)="togglenav()" routerLink="/searchlist1" routerLinkActive="active">Searchlist1 </a></li>
+  <hr/> 
+    <li> <a (click)="togglenav()" routerLink="/searchlist123" routerLinkActive="active">Searchlist123 </a></li> -->
+  <hr/> 
+            </div>
+        </mat-tab>
+        <mat-tab label="Esets">
+          <button mat-icon-button (click)="sidenav.close()">
+      <mat-icon>close</mat-icon>
+    </button>  
+        </mat-tab>
+        <mat-tab label="Account">
+        </mat-tab>
+      </mat-tab-group>
+    </mat-sidenav>
+
+    <!-- Main body Placeholder  -->
+    <router-outlet class=" ">
+    </router-outlet>
+    <!--/ Main body Placeholder  -->
+  </mat-sidenav-container>
+</div>

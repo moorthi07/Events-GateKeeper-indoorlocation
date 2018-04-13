@@ -1,0 +1,391 @@
+[{
+  "id": 52953,
+  "name": "Open-source framework for Indoor Location",
+  "speaker": "Mathieu Gerard | Mapwize",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/MathieuGerard.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 10,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 11,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 23354
+}, {
+  "id": 53088,
+  "name": "JWTs Suck",
+  "speaker": "Randall Degges | Okta",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/RandallDegges.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 10,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 11,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}, {
+  "id": 53228,
+  "name": "Choose Your Own Deployment: Interactive Feature Flag Adventure",
+  "speaker": "Heidi Waterhouse | LaunchDarkly",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/HeidiWaterhouse.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 11,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 12,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 23354
+}, {
+  "id": 53229,
+  "name": "A Network Engineer and a Developer Walk into a Bar…",
+  "speaker": "Colin Lowenberg | Cisco, Meraki | George Dorsey | Cisco, Meraki",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/GeorgeDorsey.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 11,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 12,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}, {
+  "id": 53230,
+  "name": "DevOps - How to Be an Ansible Contributor",
+  "speaker": "John McDonough | Cisco, DevNet",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/JohnMcDonough.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 45,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 23354
+}, {
+  "id": 53231,
+  "name": "KABAM! 0 to Kubernetes on UCS in 15 Minutes",
+  "speaker": "Christopher Culligan | Cisco",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/ChristopherCulligan.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}, {
+  "id": 53751,
+  "name": "IoT & AI - Why Do I Care?",
+  "speaker": "Ramesh Durairaj | Neubay Inc",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/RameshDurairaj.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 15,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 13,
+    "minute": 30,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}, {
+  "id": 53887,
+  "name": "Building a NetDevOps CI/CD Pipeline",
+  "speaker": "Hank Preston | Cisco, DevNet",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/HankPreston.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 14,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 14,
+    "minute": 45,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 23354
+}, {
+  "id": 54048,
+  "name": "Demystifying Kubernetes for Enterprises DevOps",
+  "speaker": "Jim Bugwadia | Nirmata",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/JimBugwadia.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 14,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 14,
+    "minute": 45,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}, {
+  "id": 54049,
+  "name": "Let's Go Serverless at the Edge",
+  "speaker": "Arvind Tiwari | Cisco, Platform and Services",
+  "speakerImgUrl": "https://www.devnetcreate.io/2018/resources/images/speakers/ArvindTiwari.jpg",
+  "startDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 15,
+    "minute": 0,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "endDate": {
+    "year": 2018,
+    "month": "APRIL",
+    "dayOfMonth": 11,
+    "dayOfWeek": "WEDNESDAY",
+    "dayOfYear": 101,
+    "hour": 15,
+    "minute": 45,
+    "second": 0,
+    "nano": 0,
+    "monthValue": 4,
+    "chronology": {
+      "calendarType": "iso8601",
+      "id": "ISO"
+    }
+  },
+  "tags": "java, docker",
+  "roomId": 22961
+}]

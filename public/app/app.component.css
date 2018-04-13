@@ -1,0 +1,62 @@
+ html,body { height: 100%; margin: 0px; padding: 0px;   }
+      /*.full { background: #0f0; height: 100%;
+      overflow:auto; }*/
+
+.float {
+    position: fixed; 
+    bottom: 0px;
+    left: 0px;
+    /*background-color: #ff0000;*/
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+     box-shadow: 2px 2px 1px #999; 
+}
+
+li {
+    list-style:  none;
+     line-height: 2;
+    
+}
+a{
+    text-decoration: none;
+     color: gray;  
+    font-size: 1.5em;
+}
+
+.menuinsidenav{
+    padding:20px;
+   
+}
+.mat-sidenav-container {
+   position: absolute;
+   height: 100%;
+   min-height: 100%;
+   width: 100%;
+   min-width: 100%;
+}
+
+ .mat-tab-body-wrapper {
+      /*height: 100%;*/
+    }
+
+#pchart{
+margin: 20px;
+padding:30px;
+}
+ 
+
+.example-fab {
+  position: absolute;
+  /*right: 20px;
+  bottom: 10px;*/
+}
+
+.mat-tab-label {
+    line-height: 28px;}
+
+    
+ .flex80 {
+    flex: 80%;
+  }
+ 

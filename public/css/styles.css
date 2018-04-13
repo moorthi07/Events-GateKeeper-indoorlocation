@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+/*@import '~@angular/material/core/theming/prebuil/t/deeppurple-amber.css';*/
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+  margin: 0;
+  font-family: Roboto,  Arial, Helvetica, sans-serif;
+  /* 'MuseoSansCyrl-100', Arial, Helvetica, sans-serif; */
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+p {
+  margin: 10px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;}
+
+[md-raised-button] {
+  width: 100%;
+}
+
+md-grid-list {
+  max-width: 1403px;
+  margin: 16px;
+}
+
+mat-sidenav-layout {
+  height: 100vh;
+}
+
+mat-sidenav {
+  width: 320px;
+}
+
+
+
+.icon-20 {
+  font-size: 20px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.a-listitem{
+  text-align: left !important;
+  /* padding:5px;
+  background-color: #f0ebeb; */
+  flex: 80%;
+}
+
+
+.flex80 {
+  flex: 80%;
+}

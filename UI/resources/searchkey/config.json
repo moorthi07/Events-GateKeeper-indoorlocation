@@ -1,0 +1,14 @@
+{
+  "type": "Collection",
+  "properties": {
+        "searchkey": {
+      "name": "searchkey",
+      "type": "string",
+      "typeLabel": "searchkey",
+      "required": true,
+      "id": "searchkey",
+      "order": 0
+    }
+    
+      }
+}

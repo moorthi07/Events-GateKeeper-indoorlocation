@@ -1,0 +1,46 @@
+
+
+###
+GET  http://ec2-18-184-32-172.eu-central-1.compute.amazonaws.com:8088/events
+Content-Type: application/json
+
+ 
+
+###
+POST http://localhost:2403/users/logout
+Content-Type: application/json
+ 
+###
+POST http://localhost:2403/users/login
+Content-Type: application/json
+
+{
+    "username":"svff@svffi.org",
+    "password":"moorthi"
+}
+
+
+###
+POST http://localhost:2403/eset/
+content-type: application/json ,withCredentials: true
+
+{
+    "filestring":"ammmbcd"   
+}
+
+
+###
+GET  http://localhost:2403/eset/
+content-type: application/json, withCredentials: true
+
+
+###
+DELETE http://localhost:2403/eset/
+content-type: application/json, withCredentials: true
+
+
+###
+curl -X POST  http://localhost:2403/eset/1efb1d5641add8cd_1515444005185/LICENSE  
+--header "Content-Type:application/json;withCredentials: true"
+-d '{ "asd":"pvmoorthi_jobs@yahoo.com"   }'
+ 

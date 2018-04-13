@@ -1,0 +1,47 @@
+{
+  "type": "Collection",
+  "properties": {
+        "id": {
+      "name": "id",
+      "type": "string",
+      "typeLabel": "id",
+      "required": true,
+      "id": "id",
+      "order": 0
+    }
+    ,
+    
+      
+        "address1": {
+      "name": "address1",
+      "type": "string",
+      "typeLabel": "address1",
+      "required": true,
+      "id": "address1",
+      "order": 1
+    }
+    ,
+    
+      
+        "address2": {
+      "name": "address2",
+      "type": "string",
+      "typeLabel": "address2",
+      "required": false,
+      "id": "address2",
+      "order": 2
+    }
+    ,
+    
+      
+        "city": {
+      "name": "city",
+      "type": "string",
+      "typeLabel": "city",
+      "required": false,
+      "id": "city",
+      "order": 3
+    }
+    
+      }
+}

@@ -1,0 +1,100 @@
+<div class="  fullscroll">
+  <mat-sidenav-container>
+    <mat-sidenav align="start" #contactssidenav>
+      <mat-toolbar>
+        <span class="flex80">
+          <h1 class="mat-toolbar-tools">
+            Contacts
+          </h1>
+        </span>
+        <span>
+          <button mat-icon-button (click)="contactssidenav.toggle()">
+            <mat-icon class="icon" class="mat-secondary">close</mat-icon>
+          </button>
+        </span> 
+      </mat-toolbar>
+      <!--<form>-->
+      <mat-form-field>
+
+        <!--<input type="text" [(ngModel)]="searchContacts" [(ngModel)]-options="{ debounce: 500 }">-->
+        <input matInput placeholder="Search" [(ngModel)]="searchContactss">
+      </mat-form-field>
+      <!--</form>-->
+      <mat-list>
+        <!--<p layout-padding ng-hide="contacts.length" aria-label="No contacts">
+            No contacts.
+        </p>-->
+        <!--| filter: searchContacts-->
+        <mat-list-item *ngFor="let contactsItem of contacts  " class="list  ">
+          <a mat-button (click)="edit(contactsItem)" class="a-listitem">
+            {{
+            contactsItem.
+              id.substring(0, 15)}}
+          </a>
+
+          <button mat-icon-button class="icon mat-secondary" (click)="delete($event, contactsItem)">
+            <mat-icon>delete</mat-icon>
+          </button>
+          <i class="icon">edit</i>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item (click)="contactssidenav.toggle()" mat-warn>
+          Close
+        </mat-list-item>
+      </mat-list>
+    </mat-sidenav>
+
+    <button mat-mini-fab (click)="contactssidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <B>
+      Contacts
+    </B>
+    <!-- <button mat-button [hidden]="showComments" (click)="showComments()"><mat-icon>home</mat-icon>Show Comments</button>
+    <button mat-button [hidden]="showComments" (click)="hideComments()"><mat-icon>home</mat-icon>Hide Comments</button> -->
+    <button mat-button (click)="save()" [disabled]="!contactsform.valid" type="submit">
+      <i class="material-icons">done</i>Submit</button>
+    <button mat-button type="button" (click)="reset()">
+      <i class="material-icons">do_not_disturb</i>Cancel</button>
+
+
+    <mat-card>
+      <mat-card-content>
+        <form class="contacts-form" #contactsform="ngForm">
+
+                                            <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="name" name="name" [(ngModel)]="newContacts.name" id="name" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="web" name="web" [(ngModel)]="newContacts.web" id="web" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="phone" name="phone" [(ngModel)]="newContacts.phone" id="phone" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="email" name="email" [(ngModel)]="newContacts.email" id="email" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="address1" name="address1" [(ngModel)]="newContacts.address1" id="title" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "text" placeholder="address2" name="address2" [(ngModel)]="newContacts.address2" id="address2" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "text" placeholder="city" name="city" [(ngModel)]="newContacts.city" id="city" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "number" placeholder="zip" name="zip" [(ngModel)]="newContacts.zip" id="zip" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "date" placeholder="Date" name="Date" [(ngModel)]="newContacts.Date" id="Date" (change)="onChange()">
+                      </mat-form-field>
+                                                                        <br/>
+
+        </form>
+      </mat-card-content>
+    </mat-card>
+    <mat-divider></mat-divider>
+
+  </mat-sidenav-container>
+</div>

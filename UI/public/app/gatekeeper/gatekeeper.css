@@ -1,0 +1,130 @@
+.contacts-form {
+  min-width: 150px; 
+  width: 80%; 
+  margin:10%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+
+  .main-form {
+    min-width: 150px;
+    width: 70%;
+    color: #626377;
+    margin-top: 10%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+.speaker{
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+  .center {
+    display: flex;
+    /* justify-content: space-between; */
+    /* text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+
+  
+  .titlebold {
+    /* font-size: 1.5em; */
+    font-color: #424579 !important;
+  }
+  
+  .tilepanel li,
+  .tiles {
+    width: 30%;
+    /* height:40%; */
+    padding: 15px;
+    margin: 1%;
+    background-color: #1682a9;
+    color: #fff;
+    float: left;
+  }
+  
+  .mainlist {
+    font-size: 1.3em;
+    padding: 2%;
+    color: #6B7070;
+    /* background-color:#eeeeee; */
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00bcd4;
+  }
+  
+  .themecolor {
+    color: #24828f;
+  }
+  
+  .midtxt {
+    text-align: center !important;
+    color: #00bcd4;
+  }
+  
+  .cardpading {
+    background-color: rgb(25, 27, 83);
+    margin: 0;
+    /* padding :  5px  ; #323F68; */
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  /* button{size:40%;} */
+  
+  footer {
+    /* background: #2F7780; */
+    /* color: #00bcd4; */
+    clear: both;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  
+  .flex80 {
+    flex: 50%;
+  }
+  
+  .card50 {
+    width: 45%;
+    padding: 2px;
+    margin: 1%;
+    /* float: left; */
+  }
+  
+  .nav-link {
+    padding: 10px;
+  }
+  
+  .iconsize {
+    width: 20px;
+    height: 20px;
+  }
+  

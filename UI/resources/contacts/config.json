@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "properties": {
+        "id": {
+      "name": "id",
+      "type": "string",
+      "typeLabel": "id",
+      "required": true,
+      "id": "id",
+      "order": 0
+    }
+    ,
+    
+      
+        "name": {
+      "name": "name",
+      "type": "string",
+      "typeLabel": "name",
+      "required": true,
+      "id": "name",
+      "order": 1
+    }
+    ,
+    
+      
+        "web": {
+      "name": "web",
+      "type": "string",
+      "typeLabel": "web",
+      "required": true,
+      "id": "web",
+      "order": 2
+    }
+    ,
+    
+      
+        "phone": {
+      "name": "phone",
+      "type": "string",
+      "typeLabel": "phone",
+      "required": true,
+      "id": "phone",
+      "order": 3
+    }
+    ,
+    
+      
+        "email": {
+      "name": "email",
+      "type": "string",
+      "typeLabel": "email",
+      "required": true,
+      "id": "email",
+      "order": 4
+    }
+    ,
+    
+      
+        "address1": {
+      "name": "address1",
+      "type": "string",
+      "typeLabel": "address1",
+      "required": true,
+      "id": "address1",
+      "order": 5
+    }
+    ,
+    
+      
+        "address2": {
+      "name": "address2",
+      "type": "string",
+      "typeLabel": "address2",
+      "required": false,
+      "id": "address2",
+      "order": 6
+    }
+    ,
+    
+      
+        "city": {
+      "name": "city",
+      "type": "string",
+      "typeLabel": "city",
+      "required": false,
+      "id": "city",
+      "order": 7
+    }
+    ,
+    
+      
+        "zip": {
+      "name": "zip",
+      "type": "number",
+      "typeLabel": "zip",
+      "required": false,
+      "id": "zip",
+      "order": 8
+    }
+    ,
+    
+      
+        "Date": {
+      "name": "Date",
+      "type": "date",
+      "typeLabel": "Date",
+      "required": false,
+      "id": "Date",
+      "order": 9
+    }
+    
+      }
+}

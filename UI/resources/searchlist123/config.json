@@ -1,0 +1,25 @@
+{
+  "type": "Collection",
+  "properties": {
+        "wordwwwwwwwww": {
+      "name": "wordwwwwwwwww",
+      "type": "string",
+      "typeLabel": "wordwwwwwwwww",
+      "required": true,
+      "id": "wordwwwwwwwww",
+      "order": 0
+    }
+    ,
+    
+      
+        "detail": {
+      "name": "detail",
+      "type": "string",
+      "typeLabel": "detail",
+      "required": true,
+      "id": "detail",
+      "order": 1
+    }
+    
+      }
+}

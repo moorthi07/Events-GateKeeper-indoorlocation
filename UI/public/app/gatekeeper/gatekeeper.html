@@ -1,0 +1,181 @@
+<div class="  fullscroll">
+  <mat-sidenav-container>
+    <mat-sidenav align="start" #contactssidenav>
+      <mat-toolbar>
+        <span class="flex80">
+          <h1 class="mat-toolbar-tools">
+            Gate Keeper
+          </h1>
+        </span>
+        <span>
+          <button mat-icon-button (click)="contactssidenav.toggle()">
+            <mat-icon class="icon" class="mat-secondary">close</mat-icon>
+          </button>
+        </span> 
+      </mat-toolbar>
+      <!--<form>-->
+      <mat-form-field> 
+       
+        <input matInput placeholder="Search" [(ngModel)]="searchContactss">
+      </mat-form-field>
+      <!--</form>-->
+   
+    </mat-sidenav>
+
+    <button mat-mini-fab (click)="contactssidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <B>
+      Event Analytics
+    </B>
+    <!-- <div class="  mainlist   "> 
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          This is the expansion title
+        </mat-expansion-panel-header>
+      
+        <p>This is the primary content of the panel.</p>
+      
+        <mat-action-row>
+          <button mat-button>Click me</button>
+        </mat-action-row>
+      </mat-expansion-panel>
+
+     </div> -->
+
+      <div class="  mainlist   "> 
+        <mat-card class="     ">
+          <h2>Top 3  events attendance:</h2>
+          
+          <div class="     tilepanel center  "> 
+            <mat-card class="tiles     ">
+               <b> {{contacts[0].event.name}} </b>
+                <br/> 
+                <h1 >{{contacts[0].counter}}</h1>
+                <img class =" speaker" src="{{contacts[0].event.speakerImgUrl}}" /> 
+                <br/>
+                {{contacts[0].event.speaker}} 
+              
+            </mat-card>
+            <mat-card class="tiles     ">
+                <b> {{contacts[1].event.name}}  </b> 
+                
+                 <br/>
+                  <h1 >{{contacts[1].counter}}</h1>
+                  <img class =" speaker" src="{{contacts[1].event.speakerImgUrl}}" /> 
+                  <br/>
+                  {{contacts[1].event.speaker}} 
+            </mat-card>
+            <mat-card class="tiles     ">
+                <b>{{contacts[2].event.name}} </b> 
+                <br/>
+                 
+                  <h1 >{{contacts[2].counter}}</h1>
+                  <img class =" speaker" src="{{contacts[2].event.speakerImgUrl}}" />
+                 
+                  <br/>
+      {{contacts[2].event.speaker}} 
+            </mat-card> 
+          </div>
+ 
+        </mat-card>
+      </div>
+      <div class="  mainlist   "> 
+        <mat-card class="     ">
+          <h2>List of Events:</h2>
+          <mat-list>
+            <!--<p layout-padding ng-hide="contacts.length" aria-label="No contacts">
+                No contacts.
+            </p>-->
+            <!--| filter: searchContacts-->
+           
+            <mat-list-item *ngFor="let contactsItem of contacts  " class="list  ">  
+                <a mat-line mat-button (click)="edit(contactsItem)" class="a-listitem titlebold">
+                    {{contactsItem.event.name}}
+                  </a>  
+                  <b>{{contactsItem.counter}}</b>
+                <li mat-line>{{contactsItem.event.speaker}}</li> 
+            </mat-list-item> 
+            <mat-divider></mat-divider>
+            <!-- <mat-list-item (click)="contactssidenav.toggle()" mat-warn>
+              Close
+            </mat-list-item> -->
+          </mat-list>
+        </mat-card>
+      </div>
+
+      
+
+      <div class="  mainlist   "> 
+          <mat-card class="     ">
+            <h2>List of Tags:</h2>
+            <mat-list>
+              <!--<p layout-padding ng-hide="contacts.length" aria-label="No contacts">
+                  No contacts.
+              </p>-->
+              <!--| filter: searchContacts-->
+             
+              <mat-list-item *ngFor="let contactsItem of tags  " class="list  ">  
+                 
+                
+                  
+                 <a mat-line mat-button (click)="edit(contactsItem)" class="a-listitem">
+                      {{contactsItem.name}}
+                    </a>  
+                   <span class="right"> {{contactsItem.counter}} </span> 
+                  </mat-list-item>
+            </mat-list>
+          </mat-card>
+          </div>
+
+
+
+
+    <!-- <mat-card>
+      <mat-card-content>
+        <form class="contacts-form" #contactsform="ngForm">
+
+                                            <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="name" name="name" [(ngModel)]="newContacts.name" id="name" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="web" name="web" [(ngModel)]="newContacts.web" id="web" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="phone" name="phone" [(ngModel)]="newContacts.phone" id="phone" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="email" name="email" [(ngModel)]="newContacts.email" id="email" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input required matInput type= "text" placeholder="address1" name="address1" [(ngModel)]="newContacts.address1" id="title" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "text" placeholder="address2" name="address2" [(ngModel)]="newContacts.address2" id="address2" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "text" placeholder="city" name="city" [(ngModel)]="newContacts.city" id="city" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "number" placeholder="zip" name="zip" [(ngModel)]="newContacts.zip" id="zip" (change)="onChange()">
+                      </mat-form-field>
+                                                                                <mat-form-field class="full-width">
+                        <input  matInput type= "date" placeholder="Date" name="Date" [(ngModel)]="newContacts.Date" id="Date" (change)="onChange()">
+                      </mat-form-field>
+                                                                        <br/>
+
+        </form>
+      </mat-card-content>
+    </mat-card> -->
+    <mat-divider></mat-divider>
+    <div class="  mainlist   "> 
+        <mat-card class="     ">
+          <h2>Venue attendance Map:</h2>
+          <!-- <iframe src='http://heatmap.joyofdata.de/' width="100%" height="400px"> </iframe> -->
+          <iframe src=' http://api.mazemap.com/js/v2.0.0-beta.11/docs/examples/iframe-fiddles/heatmap/app.html#17.57/63.41755/10.40382/17.5/56' width="100%" height="400px"> </iframe>
+         
+        </mat-card>
+      </div>
+ 
+  </mat-sidenav-container>
+</div>

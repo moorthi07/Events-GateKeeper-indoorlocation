@@ -16,7 +16,7 @@ Content-Type: application/json
 
 {
     "username":"svff@svffi.org",
-    "password":"moorthi"
+    "password":"test"
 }
 
 
@@ -42,5 +42,5 @@ content-type: application/json, withCredentials: true
 ###
 curl -X POST  http://localhost:2403/eset/1efb1d5641add8cd_1515444005185/LICENSE  
 --header "Content-Type:application/json;withCredentials: true"
--d '{ "asd":"pvmoorthi_jobs@yahoo.com"   }'
+-d '{ "asd":"test@yahoo.com"   }'
  
